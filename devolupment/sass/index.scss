@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1a1e21;
+}
+
+header{
+    nav{
+        background: skyblue;
+        box-shadow: 0px 0px 5px #444;
+        a.navbar-brand img {
+            height: 80px;
+        }
+        form.search-form {
+            width: 300px;
+            margin-right: 50px;
+            position: relative;
+            input {
+                border-radius: 50px;
+            }
+            button.search-btn {
+                border-radius: 50px;
+                padding: 7px 30px;
+                position: absolute;
+                right: 0;
+                top: 0;
+                background-color: rgb(52, 112, 136);
+                border: 0;
+                color: #fff;
+            }  
+        }
+        ul.action-menu .nav-item .nav-link {
+            margin: 0px 20px;
+            font-size: 18px;
+        }
+    }
+    
+}
+//Slider section
+section.slider {
+    background: pink;
+    height: 500px;
+    padding-top: 64px;
+    .slider-text {
+        h2 {
+            font-size: 68px;
+            font-weight: 600;
+            color: lime;
+            font-style: length($list: blue);
+            span.lighten{
+                color: skyblue;
+            }
+        }
+        p{
+            font-size: 16px;
+            color: rgb(26, 39, 32);
+        }
+        a.btn-order-now {
+            font-size: 16px;
+            background: lightblue;
+            padding: 10px 49px;
+            border-radius: 50px;
+            color: blue;
+            font-weight: 600;
+            &:hover{
+                box-shadow: 2px 2px 5px blue;
+            }
+        }
+    }
+    
+    .slider-image img {
+        height: 400px;
+        object-fit: contain;
+    }
+}
+//Category product
+section.category-product{
+    padding: 55px 0px;
+    .card{
+        background: lightblue;
+        .card-body{
+            text-align: center;
+            img {
+                height: 300px;
+                padding: 30px;
+                object-fit: contain;
+                transition: .6s;
+            }
+             
+            h4 {
+                font-size: 25px;
+                color: blue;
+                text-align: center;
+                text-shadow: #444;
+                margin: 25px 0px;
+            }
+            a.view-all-btn{
+                background: rgb(107, 172, 224);
+                padding: 7px 10px;
+                border-radius: 50px;
+                color: blue;
+                text-align: center;
+            }
+        }
+        &:hover{
+            .card-body img{
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+//Banner section
+section.banner{
+    background-color: rgb(255, 187, 0);
+    padding: 20px 0px;
+    .item {
+        background: rgb(233, 231, 132);
+        padding: 25px;
+    }
+    .text{
+        width: 270px;
+        height: 220px;
+    }
+    h2{
+        font-size: 32px;
+        line-height: 51px;
+        text-shadow: 1px 1px 1px #4444;
+    }
+    a.order-now{
+        background: orange;
+        padding: 8px 29px;
+        border-radius: 50px;
+        color: orangered;
+    }
+
+
+   img{
+    height: 150px;
+   } 
+}
+
+//Latest-product
+section.latest-product {
+    padding: 33px 0px;
+    background: skyblue;
+    .card{
+        height: 500px;
+        .card-body{
+            img{
+                height: 250px;
+                transition: .6s;
+            }
+            h2.priduct_name {
+                font-size: 1px;
+                padding: 15px 0px;
+            }
+            h2.prize {
+                font-size: 25px;
+                padding: 10px 0px;
+            }
+            a.add-to-cart-btn {
+                border: 1px solid#198754;
+                padding: 5px 23px;
+                color: #198754;
+                border-radius: 50px;
+                text-transform: uppercase;
+                font-size: 10px;
+                transition: .6s;
+                &:hover{
+                    background: var(--bs-success);
+                    color: #fff;
+                }
+            }
+        }
+        &:hover{
+            .card-body img{
+                transform: scale(1.1)
+            }
+        }   
+    }
+} 
+//most sell
+section.most-sell {
+    padding: 33px 0px;
+    background: rgb(226, 177, 71);
+    margin-top: 10px;
+    .card{
+        height: 500px;
+        .card-body{
+            img{
+                height: 250px;
+                transition: .6s;
+            }
+            h2.priduct_name {
+                font-size: 1px;
+                padding: 15px 0px;
+            }
+            h2.prize {
+                font-size: 25px;
+                padding: 10px 0px;
+            }
+            a.add-to-cart-btn {
+                border: 1px solid#198754;
+                padding: 5px 23px;
+                color: #198754;
+                border-radius: 50px;
+                text-transform: uppercase;
+                font-size: 10px;
+                transition: .6s;
+                &:hover{
+                    background: var(--bs-success);
+                    color: #fff;
+                }
+            }
+        }
+        &:hover{
+            .card-body img{
+                transform: scale(1.1)
+            }
+        }   
+    }
+} 
+//promo banner
+section.banner {
+    background-color: rgb(86, 80, 116);
+    margin: 5px;
+    h1.promo-title {
+        margin: 5px;
+        color: #fff;
+        background-color: rgb(252, 6, 141);
+        border-radius: 20px;
+        border: brown;
+        font-size: 40px;
+        position: absolute;
+        bottom: 100px;
+        left: 330px;
+        
+    }
+  
+
+    img.w-100 {
+        height: 320px;
+    }
+}
+/footer section
+ul.footer-list {
+    margin: 0;
+    padding: 0px 20px;
+    li a{
+        transition: .6s;
+     &:hover{
+        color: #0f5132;
+        padding-left: 20px;
+     }
+    }
+}

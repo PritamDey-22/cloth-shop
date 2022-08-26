@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1e21;
+}
+
+header nav {
+  background: skyblue;
+  box-shadow: 0px 0px 5px #444;
+}
+header nav a.navbar-brand img {
+  height: 80px;
+}
+header nav form.search-form {
+  width: 300px;
+  margin-right: 50px;
+  position: relative;
+}
+header nav form.search-form input {
+  border-radius: 50px;
+}
+header nav form.search-form button.search-btn {
+  border-radius: 50px;
+  padding: 7px 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgb(52, 112, 136);
+  border: 0;
+  color: #fff;
+}
+header nav ul.action-menu .nav-item .nav-link {
+  margin: 0px 20px;
+  font-size: 18px;
+}
+
+section.slider {
+  background: pink;
+  height: 500px;
+  padding-top: 64px;
+}
+section.slider .slider-text h2 {
+  font-size: 68px;
+  font-weight: 600;
+  color: lime;
+  font-style: 1;
+}
+section.slider .slider-text h2 span.lighten {
+  color: skyblue;
+}
+section.slider .slider-text p {
+  font-size: 16px;
+  color: rgb(26, 39, 32);
+}
+section.slider .slider-text a.btn-order-now {
+  font-size: 16px;
+  background: lightblue;
+  padding: 10px 49px;
+  border-radius: 50px;
+  color: blue;
+  font-weight: 600;
+}
+section.slider .slider-text a.btn-order-now:hover {
+  box-shadow: 2px 2px 5px blue;
+}
+section.slider .slider-image img {
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+section.category-product {
+  padding: 55px 0px;
+}
+section.category-product .card {
+  background: lightblue;
+}
+section.category-product .card .card-body {
+  text-align: center;
+}
+section.category-product .card .card-body img {
+  height: 300px;
+  padding: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: 0.6s;
+}
+section.category-product .card .card-body h4 {
+  font-size: 25px;
+  color: blue;
+  text-align: center;
+  text-shadow: #444;
+  margin: 25px 0px;
+}
+section.category-product .card .card-body a.view-all-btn {
+  background: rgb(107, 172, 224);
+  padding: 7px 10px;
+  border-radius: 50px;
+  color: blue;
+  text-align: center;
+}
+section.category-product .card:hover .card-body img {
+  transform: scale(1.2);
+}
+
+section.banner {
+  padding: 20px 0px;
+}
+section.banner .item {
+  background: rgb(233, 231, 132);
+  padding: 25px;
+}
+section.banner .text {
+  width: 270px;
+  height: 220px;
+}
+section.banner h2 {
+  font-size: 32px;
+  line-height: 51px;
+  text-shadow: 1px 1px 1px rgba(68, 68, 68, 0.2666666667);
+}
+section.banner a.order-now {
+  background: orange;
+  padding: 8px 29px;
+  border-radius: 50px;
+  color: orangered;
+}
+section.banner img {
+  height: 150px;
+}
+
+section.latest-product {
+  padding: 33px 0px;
+  background: skyblue;
+}
+section.latest-product .card {
+  height: 500px;
+}
+section.latest-product .card .card-body img {
+  height: 250px;
+  transition: 0.6s;
+}
+section.latest-product .card .card-body h2.priduct_name {
+  font-size: 1px;
+  padding: 15px 0px;
+}
+section.latest-product .card .card-body h2.prize {
+  font-size: 25px;
+  padding: 10px 0px;
+}
+section.latest-product .card .card-body a.add-to-cart-btn {
+  border: 1px solid #198754;
+  padding: 5px 23px;
+  color: #198754;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: 0.6s;
+}
+section.latest-product .card .card-body a.add-to-cart-btn:hover {
+  background: var(--bs-success);
+  color: #fff;
+}
+section.latest-product .card:hover .card-body img {
+  transform: scale(1.1);
+}
+
+section.most-sell {
+  padding: 33px 0px;
+  background: rgb(226, 177, 71);
+  margin-top: 10px;
+}
+section.most-sell .card {
+  height: 500px;
+}
+section.most-sell .card .card-body img {
+  height: 250px;
+  transition: 0.6s;
+}
+section.most-sell .card .card-body h2.priduct_name {
+  font-size: 1px;
+  padding: 15px 0px;
+}
+section.most-sell .card .card-body h2.prize {
+  font-size: 25px;
+  padding: 10px 0px;
+}
+section.most-sell .card .card-body a.add-to-cart-btn {
+  border: 1px solid #198754;
+  padding: 5px 23px;
+  color: #198754;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: 0.6s;
+}
+section.most-sell .card .card-body a.add-to-cart-btn:hover {
+  background: var(--bs-success);
+  color: #fff;
+}
+section.most-sell .card:hover .card-body img {
+  transform: scale(1.1);
+}
+
+section.banner {
+  background-color: rgb(86, 80, 116);
+  margin: 5px;
+}
+section.banner h1.promo-title {
+  margin: 5px;
+  color: #fff;
+  background-color: rgb(252, 6, 141);
+  border-radius: 20px;
+  border: brown;
+  font-size: 40px;
+  position: absolute;
+  bottom: 100px;
+  left: 330px;
+}
+section.banner img.w-100 {
+  height: 320px;
+}/*# sourceMappingURL=index.css.map */
